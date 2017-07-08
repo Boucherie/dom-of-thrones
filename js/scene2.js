@@ -9,9 +9,10 @@ function scene2() {
 
   // Setup Cast
 
-  // Character 1
+  // Ned
 
   nedContainer = document.createElement('div')
+  nedContainer.id = 'ned-container'
   stage.append(nedContainer)
   nedContainer.style.border = 'none'
   // nedContainer.style.backgroundColor = 'yellow'
@@ -39,7 +40,41 @@ function scene2() {
   ned.style.position = 'absolute'
   ned.style.left = '4px'
 
-  // Character 2
+  //  Joffrey
+  joffContainer = document.createElement('div')
+  joffContainer.id = 'joff-container'
+  stage.append(joffContainer)
+  joffContainer.style.border = 'none'
+  // joffContainer.style.backgroundColor = 'yellow'
+  joffContainer.style.position = 'absolute'
+  joffContainer.style.width = '8%'
+  joffContainer.style.height = '31%'
+  joffContainer.style.top = '55%'
+  joffContainer.style.left = '55%'
+
+  joff = document.querySelector('#joffrey')
+  joffContainer.append(joff)
+
+  kingRobes = document.querySelector('#king')
+  joffContainer.append(kingRobes)
+  joff.style.border = 'none'
+
+  kingRobes.style.border = 'none'
+  kingRobes.style.position = 'absolute'
+  kingRobes.style.bottom = '0'
+  kingRobes.style.left = '0'
+  kingRobes.style.height = '77px'
+
+  // nedContainer.style.height = '47%'
+  joff.style.width = '30px'
+  joffContainer.style.height = '37%'
+  joff.style.position = 'absolute'
+  joff.style.right = '0'
+
+
+
+
+
 
   // Setup Props
 
