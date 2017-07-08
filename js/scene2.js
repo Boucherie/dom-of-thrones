@@ -71,13 +71,15 @@ function scene2() {
   joff.style.position = 'absolute'
   joff.style.right = '0'
 
-
-
-
-
-
   // Setup Props
 
+  sword = document.querySelector('#sword')
+  stage.append(sword)
+  sword.style.position = 'absolute'
+  sword.style.top = '77%'
+  sword.style.left = '20%'
+  sword.style.height = '5%'
+  sword.style.transform = 'rotateY(150deg)'
   // Prop 1
 
   // Prop 2
@@ -87,8 +89,40 @@ function scene2() {
   // Stage direction 1
 
   frame(function() {
-
+    sword.style.top = '77%'
+    sword.style.left = '20%'
   })
+
+  frame(function() {
+    sword.style.top = '76%'
+    sword.style.left = '26%'
+  })
+  frame(function() {
+    sword.style.top = '74%'
+    sword.style.left = '31%'
+  })
+  frame(function() {
+    sword.style.top = '72%'
+    sword.style.left = '36%'
+  })
+
+
+  frame(function() {
+    sword.style.top = '71%'
+    sword.style.left = '41%'
+  })
+
+  frame(function() {
+    sword.style.top = '68%'
+    sword.style.left = '47%'
+  })
+
+  frame(function() {
+    sword.style.top = '64%'
+    sword.style.left = '53%'
+  })
+
+
 
   // Stage direction 2
 
