@@ -127,7 +127,44 @@ function scene2() {
   // Stage direction 2
 
   frame(function() {
+    joff.style.top = 0
+    joff.style.left = '33%'
+  })
+
+  frame(function() {
+    joff.style.top = '15%'
+    joff.style.left = '75%'
+    joff.style.transform = 'rotateZ(140deg)'
+  })
+
+  frame(function() {
+    joff.style.top = '20%'
+    joff.style.left = '100%'
+    joff.style.transform = 'rotateZ(260deg)'
+  })
+
+  frame(function() {
+    joff.style.top = '28%'
+    joff.style.left = '135%'
+    joff.style.transform = 'rotateZ(180deg)'
+  })
+
+  frame(function() {
+    joff.style.top = '40%'
+    joff.style.left = '170%'
+    joff.style.transform = 'rotateZ(260deg)'
 
   })
 
+  frame(function() {
+    joff.style.top = '50%'
+    joff.style.left = '200%'
+    joff.style.transform = 'rotateZ(180deg)'
+  })
+
+  frame(function() {
+    joff.style.top = '70%'
+    joff.style.left = '230%'
+    joff.style.transform = 'rotateZ(260deg)'
+  })
 }
