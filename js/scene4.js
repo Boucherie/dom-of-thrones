@@ -84,8 +84,6 @@ function scene4() {
   brownRobes.style.left = '-20%'
 
 
-
-
   // Setup Props
 
   // Prop 1
@@ -97,13 +95,148 @@ function scene4() {
   // Stage direction 1
 
   frame(function() {
-
+    cerseiContainer.style.top= '60%'
+    cerseiContainer.style.left = '20%'
   })
-
-  // Stage direction 2
 
   frame(function() {
-
+    petyrContainer.style.top= '60%'
+    petyrContainer.style.left = '40%'
   })
+
+  frame(function() {
+    cerseiContainer.style.top= '60%'
+    cerseiContainer.style.left = '23%'
+  })
+
+  frame(function() {
+    petyrContainer.style.top= '60%'
+    petyrContainer.style.left = '37%'
+  })
+
+  frame(function() {
+    cerseiContainer.style.top= '60%'
+    cerseiContainer.style.left = '26%'
+  })
+
+  frame(function() {
+    petyrContainer.style.top= '60%'
+    petyrContainer.style.left = '37%'
+  })
+  frame(function() {
+    cerseiContainer.style.top= '60%'
+    cerseiContainer.style.left = '30%'
+  })
+
+  frame(function() {
+    petyrContainer.style.top= '60%'
+    petyrContainer.style.left = '33%'
+  })
+
+  frame(function() {
+    cerseiContainer.style.top= '60%'
+    cerseiContainer.style.left = '34%'
+  })
+
+  frame(function() {
+    petyrContainer.style.top= '60%'
+    petyrContainer.style.left = '29%'
+  })
+
+  frame(function() {
+    cerseiContainer.style.top= '60%'
+    cerseiContainer.style.left = '37%'
+  })
+
+  frame(function() {
+    petyrContainer.style.top= '60%'
+    petyrContainer.style.left = '25%'
+  })
+
+  frame(function() {
+    cerseiContainer.style.top= '60%'
+    cerseiContainer.style.left = '40%'
+  })
+
+  frame(function() {
+    petyrContainer.style.top= '60%'
+    petyrContainer.style.left = '20%'
+  })
+
+  frame(function() {
+    viserysContainer.style.top= '60%'
+    viserysContainer.style.left = '60%'
+  })
+
+  frame(function() {
+    petyrContainer.style.top= '55%'
+    petyrContainer.style.left = '20%'
+  })
+
+  frame(function() {
+    petyrContainer.style.top= '60%'
+    petyrContainer.style.left = '20%'
+  })
+  frame(function() {
+    petyrContainer.style.top= '55%'
+    petyrContainer.style.left = '20%'
+  })
+
+  frame(function() {
+    petyrContainer.style.top= '60%'
+    petyrContainer.style.left = '20%'
+  })
+
+  frame(function() {
+    viserysContainer.style.top= '60%'
+    viserysContainer.style.left = '60%'
+  })
+  frame(function() {
+    cerseiContainer.style.top= '60%'
+    cerseiContainer.style.left = '42%'
+  })
+
+  frame(function() {
+    viserysContainer.style.top= '60%'
+    viserysContainer.style.left = '55%'
+  })
+
+  frame(function() {
+    cerseiContainer.style.top= '60%'
+    cerseiContainer.style.left = '48%'
+  })
+
+  frame(function() {
+    viserysContainer.style.top= '60%'
+    viserysContainer.style.left = '50%'
+  })
+
+  frame(function() {
+    cerseiContainer.style.top= '60%'
+    cerseiContainer.style.left = '54%'
+  })
+
+  frame(function() {
+    viserysContainer.style.top= '60%'
+    viserysContainer.style.left = '45%'
+  })
+
+  frame(function() {
+    viserysContainer.style.top= '60%'
+    viserysContainer.style.left = '40%'
+  })
+  // Stage direction 2
+
+  // while (parseInt(egg.style.left) > 28) {
+  for (sunken = 60; sunken > 0; sunken -= 5) {
+    frame(sinkWorstCharacters)
+  }
+
+  function sinkWorstCharacters() {
+    cerseiContainer.style.top = (parseInt(cerseiContainer.style.top) + 10) + '%'
+    viserysContainer.style.top = (parseInt(viserysContainer.style.top) + 10) + '%'
+    petyrContainer.style.top = (parseInt(petyrContainer.style.top) + 10) + '%'
+    }
+
 
 }
